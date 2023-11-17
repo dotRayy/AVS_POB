@@ -41,12 +41,16 @@ public class Turma {
 	public void adicionarAluno(Aluno aluno) {
 		this.listaAluno.add(aluno);
 	}
-	
+	@Override
+	public String toString() {
+		return id + "\t" + nome + "\t" + turno + "\t" + idDisciplina;
+	}
 	public void exibirAlunos() {
+		System.out.println("ID\tNome\tMatr\tEmail\tCPF");
 		for(Aluno aluno: listaAluno) {
 			System.out.println(aluno.toString());
 		}
-	};
+	}
 	
 	public Turma(String id, String nome, String turno, String idDisciplina) {
 		super();

@@ -40,8 +40,7 @@ public class Aluno {
 	}
 	@Override
 	public String toString() {
-		return "aluno [id=" + id + ", nome=" + nome + ", matricula=" + matricula + ", email=" + email + ", cpf=" + cpf
-				+ "]";
+		return id + "\t" + nome + "\t" + matricula + "\t" + email + "\t" + cpf;
 	}
 	public Aluno(String id, String nome, String matricula, String email, String cpf) {
 		super();
