@@ -75,7 +75,7 @@ public class Main {
 		System.out.println( "Alunos:");
 		turma.exibirAlunos();
 		
-		}
+	}
 
 	private static boolean incluirEmTurma(ArrayList<Turma> turmas, ArrayList<Aluno> alunos) {
 		
